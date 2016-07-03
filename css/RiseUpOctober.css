@@ -1,0 +1,111 @@
+.bld {
+  font-weight: bold;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: #FF8A65;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+#tweetTable {
+  position: fixed;
+  top: 250px;
+  /*bottom: 400px;*/
+  left: 960px;
+  width: 480px;
+}
+
+#chartDiv {
+  position:fixed;
+  top: 50px;
+  left: 0px;
+  width: 960px;
+}
+
+#dropdownDiv {
+  position:fixed;
+  top: 550px;
+  left: 0;
+  width: 200px;
+}
+
+#date {
+  position: fixed;
+  top: 575px;
+  left: 10px;
+  color: steelblue;
+}
+
+#hashtag {
+  position: fixed;
+  top: 575px;
+  left: 175px;
+  color: #ff0000;
+}
+
+#buttonWC {
+  position: fixed;
+  top: 575px;
+  left: 350px;
+  color: steelblue;
+}
+
+#wcRef {
+  color: #FFAB91;
+}
+
+.btn.btn-default {
+  background-color: steelblue;
+  border-color: steelblue;
+}
+
+.btn.btn-primary.dropdown-toggle {
+  background-color: steelblue;
+  color: #FFAB91;
+  border-color: steelblue;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
