@@ -45,7 +45,7 @@ function clickFriday(){
         updateTSV();
       break;
     case 1:
-      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #RiseUpOctober";
+      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 | #RiseUpOctober";
       filename = "RiseUpOctober/fridayRiseUpOctober.tsv";
       if (svgRan == "false")
         runTSV();
@@ -53,7 +53,7 @@ function clickFriday(){
         updateTSV();
       break;
     case 2:
-      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #BlackLivesMatter";
+      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 | #BlackLivesMatter";
       filename = "RiseUpOctober/fridayBlackLivesMatter.tsv";
       if (svgRan == "false")
         runTSV();
@@ -61,7 +61,7 @@ function clickFriday(){
         updateTSV();
       break;
     case 3:
-      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #BLM";
+      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 | #BLM";
       filename = "RiseUpOctober/fridayBLM.tsv";
       if (svgRan == "false")
         runTSV();
@@ -69,7 +69,7 @@ function clickFriday(){
         updateTSV();
       break;
     case 4:
-      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #SayTheirNames";
+      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 | #SayTheirNames";
       filename = "RiseUpOctober/fridaySayTheirNames.tsv";
      if (svgRan == "false")
         runTSV();
@@ -77,7 +77,7 @@ function clickFriday(){
         updateTSV();
       break;
     case 5:
-      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #StopPoliceBrutality";
+      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 | #StopPoliceBrutality";
       filename = "RiseUpOctober/fridayStopPoliceBrutality.tsv";
       if (svgRan == "false")
         runTSV();
@@ -109,7 +109,7 @@ function clickSaturday(){
         updateTSV();
       break;
     case 1:
-      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #RiseUpOctober";
+      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 | #RiseUpOctober";
       filename = "RiseUpOctober/saturdayRiseUpOctober.tsv";
       if (svgRan == "false")
         runTSV();
@@ -117,7 +117,7 @@ function clickSaturday(){
         updateTSV();
       break;
     case 2:
-      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #BlackLivesMatter";
+      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 | #BlackLivesMatter";
       filename = "RiseUpOctober/saturdayBlackLivesMatter.tsv";
       if (svgRan == "false")
         runTSV();
@@ -125,7 +125,7 @@ function clickSaturday(){
         updateTSV();
       break;
     case 3:
-      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #BLM";
+      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 | #BLM";
       filename = "RiseUpOctober/saturdayBLM.tsv";
       if (svgRan == "false")
         runTSV();
@@ -133,7 +133,7 @@ function clickSaturday(){
         updateTSV();
       break;
     case 4:
-      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #SayTheirNames";
+      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 | #SayTheirNames";
       filename = "RiseUpOctober/saturdaySayTheirNames.tsv";
       if (svgRan == "false")
         runTSV();
@@ -141,7 +141,7 @@ function clickSaturday(){
         updateTSV();
       break;
     case 5:
-      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #StopPoliceBrutality";
+      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 | #StopPoliceBrutality";
       filename = "RiseUpOctober/saturdayStopPoliceBrutality.tsv";
       if (svgRan == "false")
         runTSV();
@@ -173,7 +173,7 @@ function clickSunday(){
         updateTSV();
       break;
     case 1:
-      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #RiseUpOctober";
+      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 | #RiseUpOctober";
       filename = "RiseUpOctober/sundayRiseUpOctober.tsv";
       if (svgRan == "false")
         runTSV();
@@ -181,7 +181,7 @@ function clickSunday(){
         updateTSV();
       break;
     case 2:
-      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #BlackLivesMatter";
+      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 | #BlackLivesMatter";
       filename = "RiseUpOctober/sundayBlackLivesMatter.tsv";
       if (svgRan == "false")
         runTSV();
@@ -189,7 +189,7 @@ function clickSunday(){
         updateTSV();
       break;
     case 3:
-      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #BLM";
+      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 | #BLM";
       filename = "RiseUpOctober/sundayBLM.tsv";
       if (svgRan == "false")
         runTSV();
@@ -197,7 +197,7 @@ function clickSunday(){
         updateTSV();
       break;
     case 4:
-      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #SayTheirNames";
+      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 | #SayTheirNames";
       filename = "RiseUpOctober/sundaySayTheirNames.tsv";
       if (svgRan == "false")
         runTSV();
@@ -205,7 +205,7 @@ function clickSunday(){
         updateTSV();
       break;
     case 5:
-      document.getElementById("dayShown").innerHTML = "Friday Oct. 25 - #StopPoliceBrutality";
+      document.getElementById("dayShown").innerHTML = "Friday Oct. 25 | #StopPoliceBrutality";
       filename = "RiseUpOctober/sundayStopPoliceBrutality.tsv";
       if (svgRan == "false")
         runTSV();
@@ -264,7 +264,7 @@ function clickRiseUpOctober() {
 
       break;
     case "Friday":
-      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #RiseUpOctober";
+      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 | #RiseUpOctober";
       filename = "RiseUpOctober/fridayRiseUpOctober.tsv";
       if (svgRan == "false")
         runTSV();
@@ -272,7 +272,7 @@ function clickRiseUpOctober() {
         updateTSV();
       break;
     case "Saturday":
-      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #RiseUpOctober";
+      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 | #RiseUpOctober";
       filename = "RiseUpOctober/saturdayRiseUpOctober.tsv";
       if (svgRan == "false")
         runTSV();
@@ -280,7 +280,7 @@ function clickRiseUpOctober() {
         updateTSV();
       break;
     case "Sunday":
-      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #RiseUpOctober";
+      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 | #RiseUpOctober";
       filename = "RiseUpOctober/sundayRiseUpOctober.tsv";
       if (svgRan == "false")
         runTSV();
@@ -302,7 +302,7 @@ function clickBlackLivesMatter() {
 
       break;
     case "Friday":
-      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #BlackLivesMatter";
+      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 | #BlackLivesMatter";
       filename = "RiseUpOctober/fridayBlackLivesMatter.tsv";
       if (svgRan == "false")
         runTSV();
@@ -310,7 +310,7 @@ function clickBlackLivesMatter() {
         updateTSV();
       break;
     case "Saturday":
-      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #BlackLivesMatter";
+      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 | #BlackLivesMatter";
       filename = "RiseUpOctober/saturdayBlackLivesMatter.tsv";
       if (svgRan == "false")
         runTSV();
@@ -318,7 +318,7 @@ function clickBlackLivesMatter() {
         updateTSV();
       break;
     case "Sunday":
-      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #BlackLivesMatter";
+      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 | #BlackLivesMatter";
       filename = "RiseUpOctober/sundayBlackLivesMatter.tsv";
       if (svgRan == "false")
         runTSV();
@@ -340,7 +340,7 @@ function clickBLM() {
 
       break;
     case "Friday":
-      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #BLM";
+      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 | #BLM";
       filename = "RiseUpOctober/fridayBLM.tsv";
       if (svgRan == "false")
         runTSV();
@@ -348,7 +348,7 @@ function clickBLM() {
         updateTSV();
       break;
     case "Saturday":
-      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #BLM";
+      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 | #BLM";
       filename = "RiseUpOctober/saturdayBLM.tsv";
       if (svgRan == "false")
         runTSV();
@@ -356,7 +356,7 @@ function clickBLM() {
         updateTSV();
       break;
     case "Sunday":
-      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #BLM";
+      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 | #BLM";
       filename = "RiseUpOctober/sundayBLM.tsv";
       if (svgRan == "false")
         runTSV();
@@ -377,7 +377,7 @@ function clickSayTheirNames() {
 
       break;
     case "Friday":
-      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #SayTheirNames";
+      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 | #SayTheirNames";
       filename = "RiseUpOctober/fridaySayTheirNames.tsv";
       if (svgRan == "false")
         runTSV();
@@ -385,7 +385,7 @@ function clickSayTheirNames() {
         updateTSV();
       break;
     case "Saturday":
-      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #SayTheirNames";
+      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 | #SayTheirNames";
       filename = "RiseUpOctober/saturdaySayTheirNames.tsv";
       if (svgRan == "false")
         runTSV();
@@ -393,7 +393,7 @@ function clickSayTheirNames() {
         updateTSV();
       break;
     case "Sunday":
-      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #SayTheirNames";
+      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 | #SayTheirNames";
       filename = "RiseUpOctober/sundaySayTheirNames.tsv";
       if (svgRan == "false")
         runTSV();
@@ -414,7 +414,7 @@ function clickStopPoliceBrutality() {
 
       break;
     case "Friday":
-      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #StopPoliceBrutality";
+      document.getElementById("dayShown").innerHTML = "Friday Oct. 23 | #StopPoliceBrutality";
       filename = "RiseUpOctober/fridayStopPoliceBrutality.tsv";
       if (svgRan == "false")
         runTSV();
@@ -422,7 +422,7 @@ function clickStopPoliceBrutality() {
         updateTSV();
       break;
     case "Saturday":
-      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #StopPoliceBrutality";
+      document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 | #StopPoliceBrutality";
       filename = "RiseUpOctober/saturdayStopPoliceBrutality.tsv";
       if (svgRan == "false")
         runTSV();
@@ -430,7 +430,7 @@ function clickStopPoliceBrutality() {
         updateTSV();
       break;
     case "Sunday":
-      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #StopPoliceBrutality";
+      document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 | #StopPoliceBrutality";
       filename = "RiseUpOctober/sundayStopPoliceBrutality.tsv";
       if (svgRan == "false")
         runTSV();
