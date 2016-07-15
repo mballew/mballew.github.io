@@ -82,6 +82,8 @@ function runTSV(){
         .on('mouseout', tip.hide);
   });
   svgRan = "true";
+
+  console.log(filename);
 }
 
 function updateTSV(){
@@ -95,6 +97,8 @@ function updateTSV(){
     .attr("height", function(d){return height - y(d.tweetvolume); })
     .call(yAxis);
   });
+
+  console.log(filename);
 }
 
 function type(d) {
