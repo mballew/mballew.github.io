@@ -142,7 +142,7 @@ function clickFriday(){
   switch (currentHashtag) {
     case 0:
       document.getElementById("dayShown").innerHTML = "Friday Oct. 23";
-      filename = "../../data/RiseUpOctober/tsv/friday.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/friday.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -150,7 +150,7 @@ function clickFriday(){
       break;
     case 1:
       document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #RiseUpOctober";
-      filename = "../../data/RiseUpOctober/tsv/fridayRiseUpOctober.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/fridayRiseUpOctober.tsv";
       if (svgRan == "false")
         runTSV();
       else
@@ -158,7 +158,7 @@ function clickFriday(){
       break;
     case 2:
       document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #BlackLivesMatter";
-      filename = "../../data/RiseUpOctober/tsv/fridayBlackLivesMatter.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/fridayBlackLivesMatter.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -166,7 +166,7 @@ function clickFriday(){
       break;
     case 3:
       document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #BLM";
-      filename = "../../data/RiseUpOctober/tsv/fridayBLM.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/fridayBLM.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -174,7 +174,7 @@ function clickFriday(){
       break;
     case 4:
       document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #SayTheirNames";
-      filename = "../../data/RiseUpOctober/tsv/fridaySayTheirNames.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/fridaySayTheirNames.tsv";
      if (svgRan == "false")
         runTSV();
       else 
@@ -182,7 +182,7 @@ function clickFriday(){
       break;
     case 5:
       document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #StopPoliceBrutality";
-      filename = "../../data/RiseUpOctober/tsv/fridayStopPoliceBrutality.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/fridayStopPoliceBrutality.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -190,7 +190,7 @@ function clickFriday(){
       break;
     default:
       document.getElementById("dayShown").innerHTML = "Friday Oct. 23";
-      filename = "../../data/RiseUpOctober/tsv/friday.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/friday.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -206,7 +206,7 @@ function clickSaturday(){
   switch (currentHashtag) {
     case 0:
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24";
-      filename = "../../data/RiseUpOctober/tsv/saturday.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/saturday.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -214,7 +214,7 @@ function clickSaturday(){
       break;
     case 1:
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #RiseUpOctober";
-      filename = "../../data/RiseUpOctober/tsv/saturdayRiseUpOctober.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/saturdayRiseUpOctober.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -222,7 +222,7 @@ function clickSaturday(){
       break;
     case 2:
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #BlackLivesMatter";
-      filename = "../../data/RiseUpOctober/tsv/saturdayBlackLivesMatter.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/saturdayBlackLivesMatter.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -230,7 +230,7 @@ function clickSaturday(){
       break;
     case 3:
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #BLM";
-      filename = "../../data/RiseUpOctober/tsv/saturdayBLM.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/saturdayBLM.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -238,7 +238,7 @@ function clickSaturday(){
       break;
     case 4:
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #SayTheirNames";
-      filename = "../../data/RiseUpOctober/tsv/saturdaySayTheirNames.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/saturdaySayTheirNames.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -246,7 +246,7 @@ function clickSaturday(){
       break;
     case 5:
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #StopPoliceBrutality";
-      filename = "../../data/RiseUpOctober/tsv/saturdayStopPoliceBrutality.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/saturdayStopPoliceBrutality.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -254,7 +254,7 @@ function clickSaturday(){
       break;
     default:
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24";
-      filename = "../../data/RiseUpOctober/tsv/saturday.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/saturday.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -270,7 +270,7 @@ function clickSunday(){
   switch (currentHashtag) {
     case 0:
       document.getElementById("dayShown").innerHTML = "Sunday Oct. 25";
-      filename = "../../data/RiseUpOctober/tsv/sunday.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/sunday.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -278,7 +278,7 @@ function clickSunday(){
       break;
     case 1:
       document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #RiseUpOctober";
-      filename = "../../data/RiseUpOctober/tsv/sundayRiseUpOctober.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/sundayRiseUpOctober.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -286,7 +286,7 @@ function clickSunday(){
       break;
     case 2:
       document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #BlackLivesMatter";
-      filename = "../../data/RiseUpOctober/tsv/sundayBlackLivesMatter.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/sundayBlackLivesMatter.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -294,7 +294,7 @@ function clickSunday(){
       break;
     case 3:
       document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #BLM";
-      filename = "../../data/RiseUpOctober/tsv/sundayBLM.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/sundayBLM.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -302,7 +302,7 @@ function clickSunday(){
       break;
     case 4:
       document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #SayTheirNames";
-      filename = "../../data/RiseUpOctober/tsv/sundaySayTheirNames.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/sundaySayTheirNames.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -310,7 +310,7 @@ function clickSunday(){
       break;
     case 5:
       document.getElementById("dayShown").innerHTML = "Friday Oct. 25 - #StopPoliceBrutality";
-      filename = "../../data/RiseUpOctober/tsv/sundayStopPoliceBrutality.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/sundayStopPoliceBrutality.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -318,7 +318,7 @@ function clickSunday(){
       break;
     default:
       document.getElementById("dayShown").innerHTML = "Friday Oct. 25";
-      filename = "../../data/RiseUpOctober/tsv/sunday.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/sunday.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -333,7 +333,7 @@ function clickNoHashtag() {
   switch (currentDayViewed) {
     case "Friday":
       document.getElementById("dayShown").innerHTML = "Friday Oct. 23";
-      filename = "../../data/RiseUpOctober/tsv/friday.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/friday.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -341,7 +341,7 @@ function clickNoHashtag() {
       break;
     case "Saturday":
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24";
-      filename = "../../data/RiseUpOctober/tsv/saturday.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/saturday.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -349,7 +349,7 @@ function clickNoHashtag() {
       break;
     case "Sunday":
       document.getElementById("dayShown").innerHTML = "Sunday Oct. 25";
-      filename = "../../data/RiseUpOctober/tsv/sunday.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/sunday.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -369,7 +369,7 @@ function clickRiseUpOctober() {
       break;
     case "Friday":
       document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #RiseUpOctober";
-      filename = "../../data/RiseUpOctober/tsv/fridayRiseUpOctober.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/fridayRiseUpOctober.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -377,7 +377,7 @@ function clickRiseUpOctober() {
       break;
     case "Saturday":
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #RiseUpOctober";
-      filename = "../../data/RiseUpOctober/tsv/saturdayRiseUpOctober.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/saturdayRiseUpOctober.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -385,7 +385,7 @@ function clickRiseUpOctober() {
       break;
     case "Sunday":
       document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #RiseUpOctober";
-      filename = "../../data/RiseUpOctober/tsv/sundayRiseUpOctober.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/sundayRiseUpOctober.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -407,7 +407,7 @@ function clickBlackLivesMatter() {
       break;
     case "Friday":
       document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #BlackLivesMatter";
-      filename = "../../data/RiseUpOctober/tsv/fridayBlackLivesMatter.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/fridayBlackLivesMatter.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -415,7 +415,7 @@ function clickBlackLivesMatter() {
       break;
     case "Saturday":
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #BlackLivesMatter";
-      filename = "../../data/RiseUpOctober/tsv/saturdayBlackLivesMatter.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/saturdayBlackLivesMatter.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -423,7 +423,7 @@ function clickBlackLivesMatter() {
       break;
     case "Sunday":
       document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #BlackLivesMatter";
-      filename = "../../data/RiseUpOctober/tsv/sundayBlackLivesMatter.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/sundayBlackLivesMatter.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -445,7 +445,7 @@ function clickBLM() {
       break;
     case "Friday":
       document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #BLM";
-      filename = "../../data/RiseUpOctober/tsv/fridayBLM.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/fridayBLM.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -453,7 +453,7 @@ function clickBLM() {
       break;
     case "Saturday":
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #BLM";
-      filename = "../../data/RiseUpOctober/tsv/saturdayBLM.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/saturdayBLM.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -461,7 +461,7 @@ function clickBLM() {
       break;
     case "Sunday":
       document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #BLM";
-      filename = "../../data/RiseUpOctober/tsv/sundayBLM.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/sundayBLM.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -482,7 +482,7 @@ function clickSayTheirNames() {
       break;
     case "Friday":
       document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #SayTheirNames";
-      filename = "../../data/RiseUpOctober/tsv/fridaySayTheirNames.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/fridaySayTheirNames.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -490,7 +490,7 @@ function clickSayTheirNames() {
       break;
     case "Saturday":
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #SayTheirNames";
-      filename = "../../data/RiseUpOctober/tsv/saturdaySayTheirNames.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/saturdaySayTheirNames.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -498,7 +498,7 @@ function clickSayTheirNames() {
       break;
     case "Sunday":
       document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #SayTheirNames";
-      filename = "../../data/RiseUpOctober/tsv/sundaySayTheirNames.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/sundaySayTheirNames.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -519,7 +519,7 @@ function clickStopPoliceBrutality() {
       break;
     case "Friday":
       document.getElementById("dayShown").innerHTML = "Friday Oct. 23 - #StopPoliceBrutality";
-      filename = "../../data/RiseUpOctober/tsv/fridayStopPoliceBrutality.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/fridayStopPoliceBrutality.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -527,7 +527,7 @@ function clickStopPoliceBrutality() {
       break;
     case "Saturday":
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24 - #StopPoliceBrutality";
-      filename = "../../data/RiseUpOctober/tsv/saturdayStopPoliceBrutality.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/saturdayStopPoliceBrutality.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -535,7 +535,7 @@ function clickStopPoliceBrutality() {
       break;
     case "Sunday":
       document.getElementById("dayShown").innerHTML = "Sunday Oct. 25 - #StopPoliceBrutality";
-      filename = "../../data/RiseUpOctober/tsv/sundayStopPoliceBrutality.tsv";
+      filename = "../../resources/data/RiseUpOctober/tsv/sundayStopPoliceBrutality.tsv";
       if (svgRan == "false")
         runTSV();
       else 
@@ -831,28 +831,28 @@ function clickBar(id){
     }
 }
 
-processJSONs('../../data/RiseUpOctober/json/fridayFollowers.json', fridayFollowersObjs);
-processJSONs('../../data/RiseUpOctober/json/saturdayFollowers.json', saturdayFollowersObjs);
-processJSONs('../../data/RiseUpOctober/json/sundayFollowers.json', sundayFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/fridayFollowers.json', fridayFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/saturdayFollowers.json', saturdayFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/sundayFollowers.json', sundayFollowersObjs);
 
-processJSONs('../../data/RiseUpOctober/json/fridayRiseUpOctober.json', fridayRiseUpOctoberFollowersObjs);
-processJSONs('../../data/RiseUpOctober/json/saturdayRiseUpOctober.json', saturdayRiseUpOctoberFollowersObjs);
-processJSONs('../../data/RiseUpOctober/json/sundayRiseUpOctober.json', sundayRiseUpOctoberFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/fridayRiseUpOctober.json', fridayRiseUpOctoberFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/saturdayRiseUpOctober.json', saturdayRiseUpOctoberFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/sundayRiseUpOctober.json', sundayRiseUpOctoberFollowersObjs);
 
-processJSONs('../../data/RiseUpOctober/json/fridayBlackLivesMatter.json', fridayBlackLivesMatterFollowersObjs);
-processJSONs('../../data/RiseUpOctober/json/saturdayBlackLivesMatter.json', saturdayBlackLivesMatterFollowersObjs);
-processJSONs('../../data/RiseUpOctober/json/sundayBlackLivesMatter.json', sundayBlackLivesMatterFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/fridayBlackLivesMatter.json', fridayBlackLivesMatterFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/saturdayBlackLivesMatter.json', saturdayBlackLivesMatterFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/sundayBlackLivesMatter.json', sundayBlackLivesMatterFollowersObjs);
 
-processJSONs('../../data/RiseUpOctober/json/fridayBLM.json', fridayBLMFollowersObjs);
-processJSONs('../../data/RiseUpOctober/json/saturdayBLM.json', saturdayBLMFollowersObjs);
-processJSONs('sundayBLM.json', sundayBLMFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/fridayBLM.json', fridayBLMFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/saturdayBLM.json', saturdayBLMFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/sundayBLM.json', sundayBLMFollowersObjs);
 
-processJSONs('../../data/RiseUpOctober/json/fridaySTN.json', fridaySTNFollowersObjs);
-processJSONs('../../data/RiseUpOctober/json/saturdaySTN.json', saturdaySTNFollowersObjs);
-processJSONs('../../data/RiseUpOctober/json/sundaySTN.json', sundaySTNFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/fridaySTN.json', fridaySTNFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/saturdaySTN.json', saturdaySTNFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/sundaySTN.json', sundaySTNFollowersObjs);
 
-processJSONs('../../data/RiseUpOctober/json/fridaySPB.json', fridaySPBFollowersObjs);
-processJSONs('../../data/RiseUpOctober/json/saturdaySPB.json', saturdaySPBFollowersObjs);
-processJSONs('../../data/RiseUpOctober/json/sundaySPB.json', sundaySPBFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/fridaySPB.json', fridaySPBFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/saturdaySPB.json', saturdaySPBFollowersObjs);
+processJSONs('../../resources/data/RiseUpOctober/json/sundaySPB.json', sundaySPBFollowersObjs);
 
 // console.log(saturdayFollowersObjs[1]);
