@@ -38,6 +38,8 @@ var svg = d3.select("#chartDiv").append("svg")
 svg.call(tip);
 
 function runTSV(){
+  document.getElementById("description1").innerHTML = "";
+  document.getElementById("description2").innerHTML = "";
 
   var a = 1;
   d3.tsv(filename, type, function(error, data) {
@@ -136,8 +138,6 @@ var currentHashtag = 0;
 function clickFriday(){
    currentDayViewed = "Friday";
    document.getElementById("dateButton").innerHTML = "Friday Oct. 23";
-   document.getElementById("description1").innerHTML = "";
-   document.getElementById("description2").innerHTML = "";
    
   switch (currentHashtag) {
     case 0:
@@ -201,8 +201,7 @@ function clickFriday(){
 function clickSaturday(){
      currentDayViewed = "Saturday";
      document.getElementById("dateButton").innerHTML = "Saturday Oct. 24";
-	 document.getElementById("description1").innerHTML = "";
-     document.getElementById("description2").innerHTML = "";
+
   switch (currentHashtag) {
     case 0:
       document.getElementById("dayShown").innerHTML = "Saturday Oct. 24";
@@ -265,8 +264,7 @@ function clickSaturday(){
 function clickSunday(){
      document.getElementById("dateButton").innerHTML = "Sunday Oct. 25";
      currentDayViewed = "Sunday";
-	 document.getElementById("description1").innerHTML = "";
-     document.getElementById("description2").innerHTML = "";
+
   switch (currentHashtag) {
     case 0:
       document.getElementById("dayShown").innerHTML = "Sunday Oct. 25";
