@@ -188,7 +188,7 @@
 
 </body>
 
-<script>
+<!--script>
 var i = 0;
 var filename;
 var barMapping = new Object();
@@ -274,7 +274,7 @@ function runTSV(){
 }
 
 function updateTSV(){
-  d3.tsv(filename,type, function(error,data){
+  d3.tsv(filename, type, function(error,data){
     x.domain(data.map(function(d) { return d.hour; }));
     y.domain([0, d3.max(data, function(d) { return d.tweetvolume; })]);
 
@@ -290,4 +290,4 @@ function type(d) {
   d.tweetvolume = +d.tweetvolume;
   return d;
 }
-</script>
+</script-->
