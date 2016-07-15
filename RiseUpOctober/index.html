@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="d3.layout.cloud.js"></script>
+
 <head>
 <title>Matthew Ballew | #RiseUpOctober</title>
 
@@ -14,7 +14,7 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="interaction.js" language="Javascript"></script>
+<script src="../resources/js/script.js" language="Javascript"></script>
 <style>
 .bld {
   font-weight: bold;
@@ -134,7 +134,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 
-<div style="font-size: 25px; text-align: center; width: 1440px"> Semantics Visualization Deliverable 4 </div>
+<div style="font-size: 25px; text-align: center; width: 1440px">#RiseUpOctober Twitter Data Visualiztion</div>
 <div id="dropdownDiv">
   <div id="hashtag" class="dropdown">
     <button id="hashtagButton" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">No Hashtag
@@ -150,10 +150,9 @@
   </div>
 
   <div id="date" class="dropdown">
-    <button id="dateButton" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Pick Date
-    <span class="caret"></span></button>
+    <button id="dateButton" class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Pick Date<span class="caret"></span></button>
     <ul class="dropdown-menu">
-      <li><a href="#" onclick="clickFriday()"> Friday Oct. 23 </a> </li>
+      <li><a href="#" onclick="clickFriday()">Friday Oct. 23</a> </li>
       <li><a href="#" onclick="clickSaturday()">Saturday Oct. 24</a></li>
       <li><a href="#" onclick="clickSunday()">Sunday Oct. 25</a></li>
     </ul>
@@ -231,88 +230,64 @@ svg.call(tip);
 
 function runTSV(){
 
-//barMapping['hello'] = "hello";
-var a = 1;
-d3.tsv(filename, type, function(error, data) {
-  //console.log(filename);
-  if (error) throw error;
+  var a = 1;
+  d3.tsv(filename, type, function(error, data) {
+    if (error) throw error;
 
-  x.domain(data.map(function(d) { return d.hour; }));
-  y.domain([0, d3.max(data, function(d) { return d.tweetvolume; })]);
+    x.domain(data.map(function(d) { return d.hour; }));
+    y.domain([0, d3.max(data, function(d) { return d.tweetvolume; })]);
 
-  svg.append("g")
-      .attr("id",function(){return"gx"})
-      .attr("class", "x axis")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis)
-      .append("text")
-        .attr("x",900)
-        .attr("y",20)
+    svg.append("g")
+        .attr("id",function(){return"gx"})
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis)
+        .append("text")
+          .attr("x",900)
+          .attr("y",20)
+          .attr("dy", ".71em")
+        .style("text-anchor", "end")
+        .text("Hour of Day");
+
+    svg.append("g")
+        .attr("id",function(){return "gy"})
+        .attr("class", "y axis")
+        .attr("transform", "rotate(0)")
+        .attr("x", 45)
         .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text("Hour of Day");
+        .style("text-anchor", "end")
 
-  svg.append("g")
-      .attr("id",function(){return "gy"})
-      .attr("class", "y axis")
-      //.call(yAxis)
-    //.append("text")
-      .attr("transform", "rotate(0)")
-      .attr("x", 45)
-      //.attr("y", -15)
-      .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      //.text("Number of Tweets");
-
-  svg.selectAll(".bar")
-      .data(data)
-    .enter().append("rect")
-      .attr("class", "bar")
-      .attr("id", function(d){i = i + 1; return "bar" + i })
-      .attr("x", function(d) { return x(d.hour); })
-      .attr("width", x.rangeBand())
-      .attr("y", function(d) { return y(d.tweetvolume);})
-      .attr("onclick", "clickBar(this.id)")
-      .attr("height", function(d) { return height - y(d.tweetvolume); })
-      .on('mouseover', tip.show)
-      .on('mouseout', tip.hide);
-
-    // svg.selectAll(".bar")
-    //   .attr("y", 200);
-});
-svgRan = "true";
-//barMapping[0] = "hello";
+    svg.selectAll(".bar")
+        .data(data)
+      .enter().append("rect")
+        .attr("class", "bar")
+        .attr("id", function(d){i = i + 1; return "bar" + i })
+        .attr("x", function(d) { return x(d.hour); })
+        .attr("width", x.rangeBand())
+        .attr("y", function(d) { return y(d.tweetvolume);})
+        .attr("onclick", "clickBar(this.id)")
+        .attr("height", function(d) { return height - y(d.tweetvolume); })
+        .on('mouseover', tip.show)
+        .on('mouseout', tip.hide);
+  });
+  svgRan = "true";
 }
 
 function updateTSV(){
-d3.tsv(filename,type, function(error,data){
-  x.domain(data.map(function(d) { return d.hour; }));
-  y.domain([0, d3.max(data, function(d) { return d.tweetvolume; })]);
+  d3.tsv(filename,type, function(error,data){
+    x.domain(data.map(function(d) { return d.hour; }));
+    y.domain([0, d3.max(data, function(d) { return d.tweetvolume; })]);
 
-svg.selectAll(".bar")
-  .data(data)
-  .attr("y",function(d){return y(d.tweetvolume);})
-  .attr("height", function(d){return height - y(d.tweetvolume); })
-  .call(yAxis);
-});
+  svg.selectAll(".bar")
+    .data(data)
+    .attr("y",function(d){return y(d.tweetvolume);})
+    .attr("height", function(d){return height - y(d.tweetvolume); })
+    .call(yAxis);
+  });
 }
-
-// function updateData() {
-//   svg.selectAll(".bar")
-//       .data(data)
-//     .enter().append("rect")
-//       .attr("class", "bar")
-//       .attr("id", function(d){i = i + 1; return "bar" + i })
-//       .attr("x", function(d) { return x(d.hour); })
-//       .attr("width", x.rangeBand())
-//       .attr("y", function(d) { return y(d.tweetvolume); })
-//       .attr("onclick", "clickBar(this.id)")
-//       .attr("height", function(d) { return height - y(d.tweetvolume); });
-//     }
 
 function type(d) {
   d.tweetvolume = +d.tweetvolume;
   return d;
 }
-
 </script>
